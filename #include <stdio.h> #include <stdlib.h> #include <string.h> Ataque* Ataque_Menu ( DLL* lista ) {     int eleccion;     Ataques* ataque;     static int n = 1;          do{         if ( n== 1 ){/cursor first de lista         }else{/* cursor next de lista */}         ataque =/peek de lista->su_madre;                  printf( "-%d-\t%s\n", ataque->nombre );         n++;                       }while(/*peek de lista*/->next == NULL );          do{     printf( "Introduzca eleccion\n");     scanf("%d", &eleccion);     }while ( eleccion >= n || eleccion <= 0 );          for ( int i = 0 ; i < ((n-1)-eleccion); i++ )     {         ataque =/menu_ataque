@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+Ataque* Ataque_Menu ( DLL* lista )
+{
+    int eleccion;
+    Ataques* ataque;
+    static int n = 1;
+    
+    do{
+        if ( n== 1 ){
+            //cursor first de lista
+        }else{ /* cursor next de lista */ }
+        ataque = //peek de lista->su_madre;
+        
+        printf( "-%d-\t%s\n", ataque->nombre );
+        n++;
+        
+        
+    }while( /*peek de lista*/->next == NULL );
+    
+    do{
+    printf( "Introduzca eleccion\n");
+    scanf("%d", &eleccion);
+    }while ( eleccion >= n || eleccion <= 0 );
+    
+    for ( int i = 0 ; i < ((n-1)-eleccion); i++ )
+    {
+        ataque = //cursor back de lista->su_madre;
+    }
+    
+    return ataque;
+    
+}
+
+int main()
+{
+    printf("Hello World");
+
+    return 0;
+}
+
