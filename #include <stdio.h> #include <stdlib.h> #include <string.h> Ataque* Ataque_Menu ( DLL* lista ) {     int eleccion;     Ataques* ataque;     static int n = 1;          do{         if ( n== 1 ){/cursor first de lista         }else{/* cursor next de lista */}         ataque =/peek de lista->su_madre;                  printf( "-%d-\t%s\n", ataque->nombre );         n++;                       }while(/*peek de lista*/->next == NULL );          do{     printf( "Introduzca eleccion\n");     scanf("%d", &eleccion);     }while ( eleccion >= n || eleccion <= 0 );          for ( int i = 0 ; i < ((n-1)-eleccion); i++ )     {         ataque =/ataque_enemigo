@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+Ataque* Ataque_Enemigo ( DLL* lista )
+{
+    Ataque* ataque;
+    static int n = //numero aleatorio entre 1 y largo de la lista;
+    
+    for (i = 0; i < n; i++)
+    {
+        if ( n== 1 ){
+            //cursor first de lista
+        }else{ /* cursor next de lista */ }
+        ataque = //peek de lista->su_madre;
+    }
+
+    
+    return ataque;
+    
+}
+
+int main()
+{
+    printf("Hello World");
+
+    return 0;
+}
+
